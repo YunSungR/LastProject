@@ -75,7 +75,7 @@
 								
 							<!-- 로그인 성공한 경우 보여줄 메뉴 항목  -->	
 							<c:if test="${not empty sessionScope.sid}">
-								<a href="/myinfoForm" id="profile">
+								<a href="/infoedit/${sessionScope.sid }" id="profile">
 				        			<img id="profileIcon" src="<c:url value="/imgs/profile.png"/>">
 				        			<p>내 정보</p>
 				        		</a>

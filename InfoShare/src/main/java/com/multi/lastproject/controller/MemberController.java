@@ -109,8 +109,8 @@ public class MemberController {
 		return "redirect:/";
 	}
     
-    // 내정보로 이동
-    @RequestMapping("/myinfoForm")
+	  // 내정보로 이동
+	@RequestMapping("/myinfoForm")
 	public String myinfoForm() {
 		return "/member/myinfoForm";
 	}
